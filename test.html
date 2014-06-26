@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js"></script>
+	<script src="jquery.rangeconstraint.js"></script>
+</head>
+<body>
+	<p>The first textbox will always be a number and lower than the second textbox.</p>
+	<input data-rangeconstraint-start="">
+	<input data-rangeconstraint-end="">
+	<hr>
+	<input data-rangeconstraint-start=123 value=10 type=number>
+	<input data-rangeconstraint-end=123 value=20 type=number>
+	<hr>
+	<input data-rangeconstraint-start=a value=20>
+	<input data-rangeconstraint-end=a value=10>
+	<hr>
+	<select data-rangeconstraint-start=ddl>
+		<option></option>
+		<option>0</option>
+		<option>1</option>
+		<option>2</option>
+		<option selected>3</option>
+		<option>4</option>
+		<option>5</option>
+	</select>
+	<select data-rangeconstraint-end=ddl>
+		<option></option>
+		<option>0</option>
+		<option selected>1</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+	</select>
+</body>
+</html>
