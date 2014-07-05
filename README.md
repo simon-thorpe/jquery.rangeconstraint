@@ -9,4 +9,4 @@ Sample usage forcing numeric input on two text fields:
 <input type="text" data-rangeconstraint-end=""> <!-- the higher number -->
 ```
 
-or try the [online demo](https://rawgit.com/simon-thorpe/jquery.rangeconstraint/master/test.html)
+or try the [online demo](https://rawgit.com/simon-thorpe/jquery.rangeconstraint/master/demo.html)
